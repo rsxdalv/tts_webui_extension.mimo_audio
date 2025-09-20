@@ -16,7 +16,6 @@ def mimo_audio_ui():
 
     speech_interface = MultiModalSpeechInterface()
 
-    print("🎨 Create Gradio Interface...")
     speech_interface.create_interface()
 
 
