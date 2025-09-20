@@ -16,6 +16,7 @@ setuptools.setup(
     project_urls={},
     scripts=[],
     install_requires=[
+        "tts-webui.mimo-audio>=0.0.2",
         # Add your dependencies here
         # "numpy",
         # "torch",
