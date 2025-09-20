@@ -2,15 +2,6 @@ import gradio as gr
 
 
 def mimo_audio_ui():
-    gr.Markdown(
-        """
-    # Mimo audio
-    
-    This is a template extension. Replace this content with your extension's functionality.
-    
-    To use it, simply modify this UI and add your custom logic.
-    """
-    )
 
     from .run_mimo_audio import MultiModalSpeechInterface
 
