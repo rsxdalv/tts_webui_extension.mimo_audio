@@ -7,7 +7,7 @@ README = (HERE / "README.md").read_text(encoding="utf-8") if (HERE / "README.md"
 setuptools.setup(
     name="tts_webui_extension.mimo_audio",
     packages=setuptools.find_namespace_packages(),
-    version="0.0.4",
+    version="0.0.5",
     author="rsxdalv",
     description="A template extension for TTS Generation WebUI",
     long_description=README,
@@ -16,7 +16,7 @@ setuptools.setup(
     project_urls={},
     scripts=[],
     install_requires=[
-        "tts-webui.mimo-audio>=0.0.2",
+        "tts-webui.mimo-audio>=0.0.3",
         # Add your dependencies here
         # "numpy",
         # "torch",
